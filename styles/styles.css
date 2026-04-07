@@ -474,7 +474,7 @@
 }
 #es-rc #es-rc-content .es-easy-mix__description {
   font-size: 16px;
-  text-align: center;
+  text-align: left;
 }
 #es-rc #es-rc-content .es-comfort {
   padding: 30px 15px;
@@ -813,7 +813,7 @@
     top: 40%;
     left: 5%;
     transform: translate(-5%, 0%);
-    width: 50%;
+    width: 38%;
   }
   #es-rc #es-rc-content .es-design__new-title {
     text-align: left;
@@ -891,7 +891,7 @@
   #es-rc #es-rc-content .es-cross__single {
     max-width: 33.3%;
     padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 35px;
     row-gap: 5px;
   }
   #es-rc #es-rc-content .es-steps__steps__item__text {
@@ -922,6 +922,9 @@
   }
 }
 @media screen and (min-width: 800px) {
+  #es-rc #es-rc-content .es-kv {
+    padding-bottom: 100px;
+  }
   #es-rc #es-rc-content .es-kv__title--headline {
     margin-bottom: 50px;
     font-size: 50px;
