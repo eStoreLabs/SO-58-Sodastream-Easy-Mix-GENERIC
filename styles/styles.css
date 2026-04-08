@@ -885,11 +885,13 @@
   #es-rc #es-rc-content .es-cross__single-title {
     min-height: 45px;
   }
-  #es-rc #es-rc-content .es-cross__single-description {
-    min-height: 175px;
-  }
   #es-rc #es-rc-content .es-cross__single {
-    max-width: 33.3%;
+    width: 33.33%;
+    padding: 32px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     padding-top: 40px;
     padding-bottom: 35px;
     row-gap: 5px;
@@ -984,9 +986,6 @@
     text-align: left;
     margin-top: 10px;
     max-width: 400px;
-  }
-  #es-rc #es-rc-content .es-cross__single-description {
-    min-height: 165px;
   }
   #es-rc #es-rc-content .es-cross__single-title {
     min-height: 35px;
